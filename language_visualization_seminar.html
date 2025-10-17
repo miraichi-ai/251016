@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>言語化力アップセミナー</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.6.1/mermaid.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #FAFAFA;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 20px;
+        }
+        
+        .header h1 {
+            color: #4CAF50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .section {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #4CAF50;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-number {
+            background-color: #4CAF50;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        
+        .subsection {
+            margin-bottom: 25px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #009688;
+            border-radius: 4px;
+        }
+        
+        .subsection h3 {
+            color: #009688;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .subsection p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 8px;
+        }
+        
+        .mermaid-container {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .mermaid-title {
+            text-align: center;
+            color: #4CAF50;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .highlight {
+            background-color: #FFC107;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .benefit-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .benefit-item {
+            background: linear-gradient(135deg, #4CAF50 0%, #009688 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        
+        .benefit-item p {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .step-box {
+            background-color: #f0f7ff;
+            border-left: 5px solid #3F77BF;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+        }
+        
+        .step-box strong {
+            color: #3F77BF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📚 AI時代の言語化力アップセミナー</h1>
+            <p>思考を整理し、伝える力を高めるメソッド</p>
+        </div>
+
+        <!-- セクション1: 背景と目的 -->
+        <div class="section">
+            <h2><span class="section-number">1</span>セミナーの背景と目的</h2>
+            
+            <div class="subsection">
+                <h3>🎯 テーマ</h3>
+                <p>AIツール（Obsidian）を活用して、<span class="highlight">言語化力</span>を高める</p>
+            </div>
+            
+            <div class="subsection">
+                <h3>💡 なぜ言語化が必要か</h3>
+                <p>日々忙しい中でも、思考を整理し続けられるメソッドが求められている。完璧さより<span class="highlight">継続性</span>を優先した設計が重要。</p>
+            </div>
+            
+            <div class="subsection">
+                <h3>👤 講師紹介</h3>
+                <p><strong>背景：</strong>エンジニア転職を経て、現在は生成AI講師・アナウンサーとして活動。企業向けAI研修やコンテンツ制作、講演活動を実施。</p>
+            </div>
+        </div>
+
+        <!-- セクション2: Obsidianとは -->
+        <div class="section">
+            <h2><span class="section-number">2</span>Obsidian - 知識管理ツールの活用</h2>
+            
+            <div class="subsection">
+                <h3>🔧 Obsidianの特徴</h3>
+                <p><span class="highlight">マークダウン形式</span>で記述可能で、<span class="highlight">豊富なプラグイン</span>でカスタマイズ可能なメモツール。</p>
+            </div>
+            
+            <div class="subsection">
+                <h3>🌐 ノート間の連携</h3>
+                <p>複数のノート同士のつながりを可視化でき、デジタル「ツェッテルカステン」手法を実装。</p>
+            </div>
+            
+            <div class="subsection">
+                <h3>✨ 魅力的なポイント</h3>
+                <p>プラグインの自由度の高さが手帳のリフィル交換感覚に近く、ユーザーのニーズに合わせたカスタマイズが容易。</p>
+            </div>
+        </div>
+
+        <!-- セクション3: 言語化ノート術とは -->
+        <div class="section">
+            <h2><span class="section-number">3</span>言語化ノート術 - 超効率メソッド</h2>
+            
+            <div class="subsection">
+                <h3>📖 出典</h3>
+                <p>コピーライター<span class="highlight">荒木俊也氏</span>の著書『こうやって頭の中を言語化する』をベースに開発。ベストセラーを複数手がけた実績を持つ著者のメソッド。</p>
+            </div>
+            
+            <div class="subsection">
+                <h3>🎯 メソッドの3つの特徴</h3>
+                <ul style="margin-left: 20px; line-height: 2;">
+                    <li><span class="highlight">シンプル</span>：複雑さを排除し、実行しやすい設計</li>
+                    <li><span class="highlight">時間効率的</span>：短時間で習慣化可能</li>
+                    <li><span class="highlight">継続性重視</span>：完璧さより続けやすさを優先</li>
+                </ul>
+            </div>
+            
+            <div class="subsection">
+                <h3>🚀 AI活用による相乗効果</h3>
+                <p>従来のメソッドにAIを組み合わせることで、さらに<span class="highlight">習慣化が加速</span>し、無理なく継続できる。</p>
+            </div>
+        </div>
+
+        <!-- ワークフロー図 -->
+        <div class="mermaid-container">
+            <div class="mermaid-title">📊 言語化プロセスのワークフロー</div>
+            <div class="mermaid">
+graph TD
+    A["🧠 思考や情報の収集"] --> B["✍️ ステップ1-4<br/>言語化ノート術<br/>(基礎段階)"]
+    B --> C["🤖 ステップ5-6<br/>AI活用ステップ<br/>(加速段階)"]
+    C --> D["📝 言語化された<br/>思考・結論"]
+    D --> E["🎤 伝え方の<br/>改善"]
+    E --> F["💡 質の高い<br/>思考の獲得"]
+    
+    style A fill:#E8F5E9
+    style B fill:#B2DFDB
+    style C fill:#FFE0B2
+    style D fill:#FFC107
+    style E fill:#F8BBD0
+    style F fill:#CE93D8
+            </div>
+        </div>
+
+        <!-- セクション4: メソッドの効果 -->
+        <div class="section">
+            <h2><span class="section-number">4</span>言語化ノート術がもたらす効果</h2>
+            
+            <div class="benefit-box">
+                <div class="benefit-item">
+                    <p>🗣️ 言語化力アップ</p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">思考を言葉に変換する能力が向上</p>
+                </div>
+                <div class="benefit-item">
+                    <p>💬 伝え方の改善</p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">結論を明確にし、わかりやすく表現</p>
+                </div>
+                <div class="benefit-item">
+                    <p>🧩 思考の質向上</p>
+                    <p style="font-size: 0.9em; margin-top: 10px;">プロセスを通じて高度な思考を習得</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- セクション5: セミナー構成 -->
+        <div class="section">
+            <h2><span class="section-number">5</span>本セミナーの構成フロー</h2>
+            
+            <div class="step-box">
+                <strong>📋 Part 1：基礎知識</strong>
+                <p>自己紹介、背景説明、Obsidian概要、言語化ノート術の基本解説</p>
+            </div>
+            
+            <div class="step-box">
+                <strong>🔧 Part 2：実践手順</strong>
+                <p>言語化ノート術の4つのステップ＋AI活用の2つのステップ（計6ステップ）を詳細解説</p>
+            </div>
+            
+            <div class="step-box">
+                <strong>💻 Part 3：実践デモンストレーション</strong>
+                <p>Obsidian画面を実際に見ながら、具体的な進め方を紹介</p>
+            </div>
+            
+            <div class="step-box">
+                <strong>📌 Part 4：まとめ・参加方法</strong>
+                <p>セミナー内容の総括、実際の使用例紹介、参加者アクション推奨</p>
+            </div>
+        </div>
+
+        <!-- セクション6: 実践への招待 -->
+        <div class="section" style="background: linear-gradient(135deg, #E8F5E9 0%, #B2DFDB 100%); border: 2px solid #4CAF50;">
+            <h2 style="color: #1B5E20;"><span class="section-number">6</span>次のステップ</h2>
+            
+            <div class="subsection" style="border-left-color: #4CAF50; background-color: rgba(255,255,255,0.8);">
+                <h3 style="color: #2E7D32;">🚀 セミナー参加後のアクション</h3>
+                <p>セミナー内容を学んだ後、Obsidianで実際に書いてみることが重要。リアルタイム参加または後日キャッチアップでの参加も可能。</p>
+            </div>
+            
+            <div class="subsection" style="border-left-color: #4CAF50; background-color: rgba(255,255,255,0.8);">
+                <h3 style="color: #2E7D32;">💬 質問・フィードバック大歓迎</h3>
+                <p>セミナー中の質問を通じて、より実践的な学習が実現できます。</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
